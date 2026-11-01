@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-gold: #C6A66B;
+    --color-gold-muted: #A88B55;
+    --color-bg-dark: #080808;
+    --color-bg-surface: #151515;
+    --color-text-ivory: #F5F1E8;
+    --color-text-muted: #A7A7A7;
+  }
+
+  body {
+    background-color: #080808;
+    color: #F5F1E8;
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  }
+}
+
+.font-display {
+  font-family: 'Playfair Display', 'Cormorant Garamond', serif;
+}
+
+.font-serif-luxury {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+/* Custom luxury scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080808;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C6A66B;
+}
+
+/* Gold glow and borders */
+.border-gold-subtle {
+  border-color: rgba(198, 166, 107, 0.25);
+}
+
+.border-gold-glow {
+  box-shadow: 0 0 25px -5px rgba(198, 166, 107, 0.15);
+}
+
+/* Hide scrollbar for gallery scroller */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Vanterra Properties",
+  "description": "International luxury real estate platform connecting discerning clients, investors, and sellers with exceptional residential and commercial properties across prestigious global destinations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
